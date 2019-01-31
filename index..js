@@ -1,7 +1,7 @@
 const ReadLevelDB = require('./readLevelDB')
 
 
-const db=new  ReadLevelDB("/media/manish/Sam/ethchain_fast/geth/chaindata");
+const db=new  ReadLevelDB("path_to_chain_chaindata");
 
 
 db.getStateTrie("0xd7f8974fb5ac78d9ac099b9ad5018bedc2ce0a72dad1827a1709da30580f0544",function(err,val){
