@@ -1,0 +1,16 @@
+{
+  "name": "read-leveldb-geth",
+  "version": "1.0.0",
+  "description": "for Ethereworld.co article",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manish Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-util": "^6.0.0",
+    "level": "^4.0.0",
+    "rlp": "^2.2.2"
+  }
+}
